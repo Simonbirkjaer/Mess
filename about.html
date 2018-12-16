@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>About | Mess Studio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Information about the brand Mess Studio and contact information such as e-mail, phone number, Facebook and Instagram.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,700" rel="stylesheet">
+</head>
+
+<body class="about">
+    <div class="background_image"></div>
+    <header>
+        <a href="index.html"><img src="images/mess-logo-sort.png" alt="Mess Studio logo" id="logo_header"></a>
+
+        <nav>
+            <a href="#" class="burger">
+            <i></i>
+        </a>
+            <ul class="menu">
+                <li><a href="products.html">Products</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="basket.html">Basket</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+        <h1 id="about_h1">About</h1>
+    
+   <section class="video">
+    <div class="video_border">
+        <iframe src="https://player.vimeo.com/video/306642980" width="640" height="360" frameborder="0" autoplay="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+       </div>
+    </section>
+   
+    
+<section class="designer_outer">
+    
+    <div class="designer_headline_box">
+    <h2 class="designer_headline">DESIGNERS</h2>
+    </div>
+        
+    <section class="designers">
+    
+        
+        <div class="designer_flex">
+            <div class="designer_img">
+        <img src="images/Mads_Lyngsoe.png" alt="Mads Lyngsø">
+                </div>
+            <div class="designer_name">
+        <h1>Mads Lyngsø</h1>
+                </div>
+        </div>
+        
+         <div class="designer_flex" style="text-align: center;">
+             <div class="designer_img">
+        <img src="images/Sebastian_Overbye.png" alt="Sebastian Overbye">
+                 </div>
+             <div class="designer_name">
+        <h1>Sebastian Overbye</h1>
+             </div>
+        </div>
+        
+         <div class="designer_flex">
+             <div class="designer_img">
+        <img src="images/Anne_Skjortholt.png" alt="Anne Skjortholt">
+                 </div>
+             <div class="designer_name">
+        <h1>Anne Skjortholt</h1>
+             </div>
+        </div>
+    
+    </section>
+        
+ </section>
+    
+    <section class="about_text">
+        
+        <div class="about_border">
+    
+        <p class="about_main"> We are a danish <span>unisex streetwear brand.</span><br>
+We interact through Emotions, Attitudes and Ideas.<br>
+We tribute the <span>digital Expression of Generation Z.</span><br>
+We <span>create Matter</span> in return of Insight and Inspiration.</p>
+        
+        
+        <p class="about_quote">Be equally different.</p>
+    
+        </div>
+        
+    </section>
+    
+    
+    <section class="contact">
+    
+            <h2>Contact information</h2>
+            <hr>
+    <section class="contact_phone">
+        <div class="phone_rotate">
+        <a href="callto:+4520940895"><img src="images/phone-gul.png" alt="Call Mess Studio"></a>
+            </div>
+        <div>
+        <a href="callto:+4520940895">+45 20 94 08 95</a>
+        </div>
+        <div class="contact_fb">
+        <a href="https://www.facebook.com/MESSStudio/?ref=settings" target="_blank"><img src="images/facebook-gul.png" alt="Besøg vores Facebook"></a>
+        </div>
+        </section>
+        
+        <section class="contact_mail">
+            <div>
+            <a href="mailto:support@messstudio.com"><img src="images/mail-gul.png" alt="Write Mess Studio"></a>
+                </div>
+            <div>
+        <a href="mailto:support@messstudio.com">support@messstudio.com</a>
+                </div>
+            <div class="contact_in">
+        <a href="https://www.instagram.com/messstudio/" target="_blank"><img src="images/instagram-gul.png" alt="Besøg vores Instagram"></a>
+        </div>
+        </section>
+    
+    
+    </section>
+    
+    
+    <footer>
+        
+        <div class="footer_flex">
+        <section>
+        <hr>
+        <a href="products.html" target="_self">Products</a> <br> <br>
+        <a href="about.html" target="_self">About</a>
+        </section>
+        
+        <section>
+        <a href="index.html"><img src="images/mess-logo-sort.png" alt="Mess Studio logo" class="footer_logo"></a>
+        </section>
+        
+        <section class="SoMe_footer">
+        <hr>
+            <a href="https://www.facebook.com/MESSStudio/?ref=settings" target="_blank"><img src="images/facebook.png" alt="Facebook"></a> <br> <br>
+            <a href="https://www.instagram.com/messstudio/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+        </section>
+            </div>
+    </footer>
+
+    <script type="text/javascript">
+        $(".burger").click(function() {
+            $(this).toggleClass('active');
+            $("ul.menu li").slideToggle('fast');
+        })
+
+        $(window).resize(function() {
+            if ($(window).width() > 650) {
+                $('ul.menu li').removeAttr('style');
+            }
+        })
+
+    </script>
+</body>
+
+</html>

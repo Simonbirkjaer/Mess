@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mess Studio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unisex streetwear brand from Aarhus producing hoodies, t-shirts, crewneck, caps, belt and shorts">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background_image"></div>
+    <header>
+        <a href="index.html"><img src="images/mess-logo-sort.png" alt="Mess Studio logo" id="logo_header"></a>
+
+        <nav>
+            <a href="#" class="burger">
+            <i></i>
+        </a>
+            <ul class="menu">
+                <li><a href="products.html">Products</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="basket.html">Basket</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="welcome">
+        <img src="images/boys.jpeg" alt="Distopia Series Tees">
+        <h1>Unisex <br>streetwear label <br>of Denmark</h1>
+
+    </section>
+
+    <section class="front_products">
+
+        <h2>Featured products</h2>
+        <hr>
+
+
+    </section>
+    
+    <section class="front_flex">
+    
+    <div class="flex_1">
+        <section> 
+        <a href="black-cap.html"> <img src="images/Black_Cap_1.jpg" alt="Black cap"></a>
+        <a href="black-cap.html"><p class="price">99,00 kr.</p></a>
+        <a href="black-cap.html"><p class="name">Black Cap</p></a>
+        </section>
+        
+        <section>  
+        <a href="black-tee-dystopia.html"><img src="images/Black_Tee_SoMe_1.jpg" alt="T-Shirt - 'Dystopia Series'"></a>
+        <a href="black-tee-dystopia.html"><p class="price">249,00 kr.</p></a>
+        <a href="black-tee-dystopia.html"><p class="name">T-Shirt <br> 'Dystopia Series'</p></a>
+        </section>
+    </div>
+    
+     <div class="flex_2">
+        <section> 
+            <a href="white-tee-dystopia.html"><img src="images/Rygning.jpg" alt="T-shirt - 'Dystopia Series'"></a>
+        <a href="white-tee-dystopia.html"><p class="price">249,00 kr.</p></a>
+        <a href="white-tee-dystopia.html"><p class="name">T-Shirt <br> 'Dystopia Series"</p></a>
+        </section>
+        
+        <section>    
+            <a href="military-belt.html"><img src="images/B%C3%A6lter.jpg" alt="Military Bælte"></a>
+        <a href="military-belt.html"><p class="price">199,90 kr.</p></a>
+        <a href="military-belt.html"><p class="name">Military belt</p></a>
+        </section>
+    </div>
+        
+    </section>
+
+
+    <button class="button3" id="button_frontpage">
+        <a href="products.html"><h3>View all products</h3></a>
+    </button>
+
+    
+    <section class="Instagram_feed">
+        
+        <h2> Check out our Instagram</h2>
+        <hr>
+
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-b1cf2e20-dda7-4cfa-b910-935176b3def4"></div>
+
+    </section>
+    <footer>
+        
+        <div class="footer_flex">
+        <section>
+        <hr>
+        <a href="products.html" target="_self">Products</a> <br> <br>
+        <a href="about.html" target="_self">About</a>
+        </section>
+        
+        <section>
+        <a href="index.html"><img src="images/mess-logo-sort.png" alt="Mess Studio logo" class="footer_logo"></a>
+        </section>
+        
+        <section class="SoMe_footer">
+        <hr>
+            <a href="https://www.facebook.com/MESSStudio/?ref=settings" target="_blank"><img src="images/facebook.png" alt="Facebook"></a> <br> <br>
+            <a href="https://www.instagram.com/messstudio/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+        </section>
+            </div>
+    </footer>
+
+    <script type="text/javascript">
+        $(".burger").click(function() {
+            $(this).toggleClass('active');
+            $("ul.menu li").slideToggle('fast');
+        })
+
+        $(window).resize(function() {
+            if ($(window).width() > 650) {
+                $('ul.menu li').removeAttr('style');
+            }
+        })
+
+    </script>
+</body>
+
+</html>

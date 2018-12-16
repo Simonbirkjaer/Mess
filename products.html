@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Products | Mess Studio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unisex streetwear products from Mess Studio including t-shirts, hoodies, crewnecks, short and caps.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background_image"></div>
+    <header>
+        <a href="index.html"><img src="images/mess-logo-sort.png" alt="Mess Studio logo" id="logo_header"></a>
+
+        <nav>
+            <a href="#" class="burger">
+            <i></i>
+        </a>
+            <ul class="menu">
+                <li><a href="products.html">Products</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="basket.html">Basket</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="product_page">
+    <h1 id="products_h1">Products</h1>
+
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('tees')"> T-shirts</button>
+        <button class="btn" onclick="filterSelection('sweats')"> Sweats</button>
+        <button class="btn" onclick="filterSelection('shorts')"> Shorts</button>
+        <button class="btn" onclick="filterSelection('accessory')"> Accessory</button>
+    </div>
+    
+        </section>
+
+    <section class="front_flex grid">
+
+        <div class="flex_1">
+            
+              <section class="filterDiv accessory">
+                <a href="black-cap.html"><img src="images/Black_Cap_1.jpg" alt="Black cap"></a>
+                <a href="black-cap.html">
+                    <p class="price">99,00 kr.</p>
+                </a>
+                <a href="black-cap.html">
+                    <p class="name">Black Cap</p>
+                </a>
+            </section>
+            
+             <section class="filterDiv tees">
+                <a href="white-tee-dystopia.html"><img src="images/Rygning.jpg" alt="T-shirt - 'Dystopia Series'"></a>
+                <a href="white-tee-dystopia.html">
+                    <p class="price">249,00 kr.</p>
+                </a>
+                <a href="white-tee-dystopia.html">
+                    <p class="name">T-Shirt <br> 'Dystopia Series"</p>
+                </a>
+            </section>
+
+            <section class="filterDiv tees">
+                <a href="black-tee-dystopia.html"><img src="images/Black_Tee_SoMe_1.jpg" alt="Black T-Shirt - 'Dystopia Series'"></a>
+                <a href="black-tee-dystopia.html">
+                    <p class="price">249,00 kr.</p>
+                </a>
+                <a href="black-tee-dystopia.html">
+                    <p class="name">T-Shirt <br> 'Dystopia Series'</p>
+                </a>
+            </section>
+            
+             <section class="filterDiv shorts">
+                <a href="shorts-bright.html"><img src="images/Shorts_Bright_1.jpg" alt="Short - 'Bright Series'"></a>
+                <a href="shorts-bright.html">
+                    <p class="price">299,00 kr.</p>
+                </a>
+                <a href="shorts-bright.html">
+                    <p class="name">Shorts - 'Bright Series'</p>
+                </a>
+            </section>
+
+            <section class="filterDiv sweats">
+                <a href="white-hoodie.html"><img src="images/White_Hoodie_Bright_1.jpg" alt="White Hoodie - 'Bright Series'"></a>
+                <a href="white-hoodie.html">
+                    <p class="price">599,00 kr.</p>
+                </a>
+                <a href="white-hoodie.html">
+                    <p class="name">Hoodie - 'Bright Series'</p>
+                </a>
+            </section>
+            
+        </div>
+
+        <div class="flex_2">
+
+            <section class="filterDiv accessory">
+                <a href="military-belt.html"><img src="images/B%C3%A6lter.jpg" alt="Military Bælte"></a>
+                <a href="military-belt.html">
+                    <p class="price">199,90 kr.</p>
+                </a>
+                <a href="military-belt.html">
+                    <p class="name">Military belt</p>
+                </a>
+            </section>
+
+            <section class="filterDiv tees">
+                <a href="white-tee-bright.html"><img src="images/White_Tee_Bright_1.jpg" alt="White tee from 'Bright Series'"></a>
+                <a href="white-tee-bright.html">
+                    <p class="price">199,00 kr.</p>
+                </a>
+                <a href="white-tee-bright.html">
+                    <p class="name">T-Shirt - 'Bright Series'</p>
+                </a>
+            </section>
+
+            <section class="filterDiv sweats">
+                <a href="black-crewneck-first.html"><img src="images/Black_Crewneck_First_1.jpg" alt="Black crewneck from 'First Series'"></a>
+                <a href="black-crewneck-first.html">
+                    <p class="price">459,00 kr.</p>
+                </a>
+                <a href="black-crewneck-first.html">
+                    <p class="name">Crewneck - 'First Series'</p>
+                </a>
+            </section>
+            
+              <section class="filterDiv sweats">
+                <a href="black-hoodie-first.html"><img src="images/Black_Hoodie_First_1.jpg" alt="Black Hoodie - 'First Series'"></a>
+                <a href="black-hoodie-first.html">
+                    <p class="price">559,00 kr. - <span class="sold_out"> Sold out</span></p>
+                </a>
+                <a href="black-hoodie-first.html">
+                    <p class="name">Hoodie - 'First Series'</p>
+                </a>
+            </section>
+
+            <section class="filterDiv tees">
+                <a href="Black_Tee_First.html"><img src="images/Black_L:S_Tee_First_1.jpg" alt="Black longsleeved tee from 'First Series'"></a>
+                <a href="Black_Tee_First.html">
+                    <p class="price">199,00 kr.</p>
+                </a>
+                <a href="Black_Tee_First.html">
+                    <p class="name">L/S T-Shirt - 'First Series'</p>
+                </a>
+            </section>
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <div class="footer_flex">
+            <section>
+                <hr>
+                <a href="products.html" target="_self">Products</a> <br> <br>
+                <a href="about.html" target="_self">About</a>
+            </section>
+
+            <section>
+                <a href="index.html"><img src="images/mess-logo-sort.png" alt="Mess Studio logo" class="footer_logo"></a>
+            </section>
+
+            <section class="SoMe_footer">
+                <hr>
+                <a href="https://www.facebook.com/MESSStudio/?ref=settings" target="_blank"><img src="images/facebook.png" alt="Facebook"></a> <br> <br>
+                <a href="https://www.instagram.com/messstudio/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            </section>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        $(".burger").click(function() {
+            $(this).toggleClass('active');
+            $("ul.menu li").slideToggle('fast');
+        })
+
+        $(window).resize(function() {
+            if ($(window).width() > 650) {
+                $('ul.menu li').removeAttr('style');
+            }
+        })
+    </script>
+
+    <script type="text/javascript">
+        filterSelection("all")
+
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("filterDiv");
+            if (c == "all") c = "";
+            for (i = 0; i < x.length; i++) {
+                w3RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+            }
+        }
+
+        function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) {
+                    element.className += " " + arr2[i];
+                }
+            }
+        }
+
+        function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("myBtnContainer");
+        var btns = btnContainer.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>'Dystopia Series' tee | Mess Studio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="'Dystopia Series' black tee with social media print on chest from Mess Studio.">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background_image"></div>
+    <header>
+        <a href="index.html"><img src="images/mess-logo-sort.png" alt="Mess Studio logo" id="logo_header"></a>
+
+        <nav>
+            <a href="#" class="burger">
+            <i></i>
+        </a>
+            <ul class="menu">
+                <li><a href="products.html">Products</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="basket.html">Basket</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <section class="product_intro">
+        <h1>T-Shirt <br> 'Dystopia Series'</h1>
+        <h2>249,00 kr.</h2>
+        <img src="images/Black_Tee_SoMe_2.jpg" alt="Social Media t-shirt">
+        
+        <form action="/action_page.php">
+            <select name="Size" class="size">
+                <option value="Choose size">Choose size</option>
+                <option value="Small">S</option>
+                <option value="Medium">M</option>
+                <option value="Large">L</option>
+                <option value="X-Large">XL</option>
+            </select>
+            <br><br>
+            <button class="button3"> <h3> Add to basket </h3></button>
+        </form>
+    </section>
+
+
+    <div class="product_grid">
+        <section>
+            <div class="product_details">
+                <p>MESS Studio T-Shirt Smoking Kills - ”Dystopia Series” features an open neckline and 100 percent cotton construction.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="image_border">
+                <img src="images/Black_Tee_SoMe_2.jpg" alt="Social Media t-shirt">
+            </div>
+        </section>
+
+
+        <section>
+            <div class="product_details_single">
+                <p>It’s minimalistic still, but the tee has a more direct message.
+<br> <br>
+Just read the damn sign and you’ll get it.</p>
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <footer>
+
+        <div class="footer_flex">
+            <section>
+                <hr>
+                <a href="products.html" target="_self">Products</a> <br> <br>
+                <a href="about.html" target="_self">About</a>
+            </section>
+
+            <section>
+                <a href="index.html"><img src="images/mess-logo-sort.png" alt="Mess Studio logo" class="footer_logo"></a>
+            </section>
+
+            <section class="SoMe_footer">
+                <hr>
+                <a href="https://www.facebook.com/MESSStudio/?ref=settings" target="_blank"><img src="images/facebook.png" alt="Facebook"></a> <br> <br>
+                <a href="https://www.instagram.com/messstudio/" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            </section>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+        $(".burger").click(function() {
+            $(this).toggleClass('active');
+            $("ul.menu li").slideToggle('fast');
+        })
+
+        $(window).resize(function() {
+            if ($(window).width() > 650) {
+                $('ul.menu li').removeAttr('style');
+            }
+        })
+    </script>
+</body>
+
+</html>
